@@ -1,0 +1,112 @@
+{
+  "background": {
+    "color": {
+      "value": "#282c34"
+    }
+  },
+  "fpsLimit": 60,
+  "interactivity": {
+    "detectsOn": "window",
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "bubble": {
+        "distance": 400,
+        "duration": 2,
+        "opacity": 0.8,
+        "size": 400
+      },
+      "push": {
+        "quantity": 4
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      }
+    }
+  },
+  "particles": {
+    "number": {
+      "value": 0
+    },
+    "bounce": {
+      "vertical": {
+        "value": 0
+      }
+    },
+    "color": {
+      "value": "#5bc0eb"
+    },
+    "collisions": {
+      "enable": false
+    },
+    "life": {
+      "duration": {
+        "sync": true,
+        "value": 10
+      },
+      "count": 1
+    },
+    "opacity": {
+      "value": 0.5
+    },
+    "size": {
+      "value": 10,
+      "random": {
+        "enable": true,
+        "minimumValue": 1
+      }
+    },
+    "move": {
+      "enable": true,
+      "gravity": {
+        "enable": true
+      },
+      "angle": {
+        "value": 20
+      },
+      "speed": 50,
+      "outModes": {
+        "bottom": "bounce",
+        "top": "none",
+        "default": "destroy"
+      },
+      "trail": {
+        "enable": true,
+        "fillColor": "#d4f1f9",
+        "length": 10
+      }
+    }
+  },
+
+  "detectRetina": true,
+  "emitters": {
+    "direction": "top-left",
+    "life": {
+      "count": 0,
+      "duration": 0,
+      "delay": 0
+    },
+    "position": {
+      "x": 60,
+      "y": 80
+    },
+    "rate": {
+      "delay": 0.5,
+      "quantity": 5
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    }
+  }
+}
