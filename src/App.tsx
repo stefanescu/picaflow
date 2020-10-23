@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from "react-tsparticles";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import particlesOptions from "./particles.json";
 import { ISourceOptions } from "tsparticles";
